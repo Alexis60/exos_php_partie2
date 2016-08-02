@@ -29,5 +29,8 @@ switch ($magnitude)
     case 9:
         echo "Séisme capable de tout détruire sur une très vaste zone.";
     break;
+    default: /*obligatoire*/
+        echo "Is ok!!!"
+    break;
 }
  ?>
